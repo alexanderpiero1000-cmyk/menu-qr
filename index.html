@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalagos de Envases</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0545e6,#074ee7);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:420px;
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+}
+
+.logo{
+    width:250px;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#0d47a1;
+    margin-bottom:10px;
+}
+
+p{
+    color:#555;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:block;
+    width:100%;
+    padding:16px;
+    margin:12px 0;
+    border-radius:12px;
+    text-decoration:none;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.03);
+}
+
+.limpieza{
+    background:#1976d2;
+}
+
+.farmaceutica{
+    background:#43a047;
+}
+
+.alimenticio{
+    background:#fb8c00;
+}
+
+.cosmetico{
+    background:#e53935;
+}
+
+.industrial{
+    background:#cbe535;
+}
+
+.footer{
+    margin-top:25px;
+    color:#888;
+    font-size:13px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Cambia logo.png por tu logotipo -->
+    <img src="img/plansa.jfif" class="logo">
+
+    <h1>Catalogos de Envases</h1>
+
+    <p>Seleccione una opción</p>
+
+    <!-- Cambia # por el enlace del PDF -->
+
+    <a class="btn limpieza" href="#" target="_blank">
+         Catálogo de Limpieza
+    </a>
+
+    <a class="btn farmaceutica" href="#" target="_blank">
+         Catálogo de Farmaceutica
+    </a>
+
+    <a class="btn alimenticio" href="#" target="_blank">
+         Catálogo de Alimenticio
+    </a>
+
+    <a class="btn cosmetico" href="#" target="_blank">
+         Catálogo de Cosmetico
+    </a>
+
+    <a class="btn industrial" href="#" target="_blank">
+         Catálogo de Industrial
+    </a>
+
+    <div class="footer">
+        © 2026 PLANSA.
+    </div>
+
+</div>
+
+</body>
+</html>
